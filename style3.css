@@ -1,0 +1,23 @@
+.buttoncontainer {
+    margin-left: 32%;
+    margin-top: 5%;
+}
+
+.wholething {
+    margin-left: 7%;
+    display: flex;
+
+}
+
+.image1, .image2, .image3 {
+    margin-right: 7%;
+}
+
+.text {
+    margin-left: 39.5%;
+}
+
+.button4 {
+   margin-left: 46%;
+}
+
