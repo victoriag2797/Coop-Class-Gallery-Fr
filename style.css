@@ -6,7 +6,7 @@ img {
 }
 
 body {
-  background-color: rgb(255, 229, 177);
+  background-color: #faf0ca;
 }
 
 .horizontal {
@@ -29,7 +29,7 @@ body {
   width: auto;
   padding: 16px;
   margin-top: -22px;
-  color: rgb(137, 137, 137);
+  color: #f09a2a;
   font-weight: bold;
   font-size: 18px;
   transition: 0.6s ease;
@@ -45,15 +45,14 @@ body {
 
 /* On hover, add a black background color with a little bit see-through */
 .prev:hover, .next:hover {
-  color: rgb(0, 0, 0);
+  color: #0d3b66;
 }
 
 /* Caption text */
 .text {
-  -webkit-text-stroke: 1.25px black;
-  color: #ffffff;
+  color: #0d3b66;
   font-size: 30px;
-  padding: 8px 12px;
+  padding: 8px 9px;
   position: absolute;
   bottom: 8px;
   width: 100%;
@@ -62,7 +61,7 @@ body {
 
 /* Number text (1/3 etc) */
 .numbertext {
-  color: #000000;
+  color: #0d3b66;
   font-size: 30px;
   padding: 8px 12px;
   position: absolute;
@@ -70,7 +69,7 @@ body {
 }
 
 .active{
-  background-color: #717171;
+  background-color: #0d3b66;
 }
 
 /* Fading animation */
@@ -88,3 +87,14 @@ body {
 @media only screen and (max-width: 300px) {
   .prev, .next,.text {font-size: 11px}
 }
+
+#myImg {
+  border-radius: 5px;
+  border: 5px solid #f09a2a;
+  cursor: pointer;
+  transition: 0.3s;
+  margin-top: 3%;
+  box-shadow: 1px 5px 5px #c3bc9e9c;
+}
+
+#myImg:hover {opacity: 0.7;}

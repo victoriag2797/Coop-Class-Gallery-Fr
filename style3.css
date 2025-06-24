@@ -1,5 +1,5 @@
 .buttoncontainer {
-    margin-left: 32%;
+    margin-left: 22%;
     margin-top: 5%;
 }
 
@@ -10,7 +10,7 @@
 }
 
 .image1, .image2, .image3 {
-    margin-right: 7%;
+    margin-right: 6%;
 }
 
 .text {
@@ -18,10 +18,48 @@
 }
 
 .button4 {
-   margin-left: 46%;
+   margin-left: 43%;
 }
 
 body {
-  background-color: rgb(255, 229, 177);
+  background-color: #faf0ca;
 }
 
+#myImg {
+  border-radius: 5px;
+  border: 5px solid #f09a2a;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+#myImg:hover {opacity: 0.7;}
+
+.buttons {
+  background-color: #f09a2a; /* Green */
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.text {
+  color: #0d3b66;
+}
+
+.buttons {
+  background-color: white; 
+  color: #0d3b66; 
+  border: 2px solid #f09a2a;
+}
+
+.buttons:hover {
+  background-color: #f09a2a;
+  color: white;
+}
